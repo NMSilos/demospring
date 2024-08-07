@@ -9,6 +9,6 @@ public interface DepartamentoDao {
     void save(Departamento departamento);
     void update(Departamento departamento);
     void delete(Long id);
-    void findById(Long id);
-    List<Departamento> listAll();
+    Departamento findById(Long id);
+    List<Departamento> findAll();
 }
